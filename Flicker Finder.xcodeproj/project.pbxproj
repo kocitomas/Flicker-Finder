@@ -13,6 +13,9 @@
 		4CC34AEE1B6185F4006010E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34AED1B6185F4006010E5 /* Images.xcassets */; };
 		4CC34AF11B6185F4006010E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34AEF1B6185F4006010E5 /* LaunchScreen.xib */; };
 		4CC34AFD1B6185F4006010E5 /* Flicker_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34AFC1B6185F4006010E5 /* Flicker_FinderTests.swift */; };
+		4CC34B071B619AC8006010E5 /* SearchByPhraseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34B061B619AC8006010E5 /* SearchByPhraseDelegate.swift */; };
+		4CC34B091B619ADF006010E5 /* LattitudeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34B081B619ADF006010E5 /* LattitudeDelegate.swift */; };
+		4CC34B0B1B619AF6006010E5 /* LongitudeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34B0A1B619AF6006010E5 /* LongitudeDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		4CC34AF61B6185F4006010E5 /* Flicker FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flicker FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC34AFB1B6185F4006010E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CC34AFC1B6185F4006010E5 /* Flicker_FinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flicker_FinderTests.swift; sourceTree = "<group>"; };
+		4CC34B061B619AC8006010E5 /* SearchByPhraseDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchByPhraseDelegate.swift; sourceTree = "<group>"; };
+		4CC34B081B619ADF006010E5 /* LattitudeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LattitudeDelegate.swift; sourceTree = "<group>"; };
+		4CC34B0A1B619AF6006010E5 /* LongitudeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongitudeDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				4CC34AE61B6185F4006010E5 /* AppDelegate.swift */,
 				4CC34AE81B6185F4006010E5 /* ViewController.swift */,
 				4CC34AEA1B6185F4006010E5 /* Main.storyboard */,
+				4CC34B061B619AC8006010E5 /* SearchByPhraseDelegate.swift */,
+				4CC34B081B619ADF006010E5 /* LattitudeDelegate.swift */,
+				4CC34B0A1B619AF6006010E5 /* LongitudeDelegate.swift */,
 				4CC34AED1B6185F4006010E5 /* Images.xcassets */,
 				4CC34AEF1B6185F4006010E5 /* LaunchScreen.xib */,
 				4CC34AE41B6185F4006010E5 /* Supporting Files */,
@@ -156,6 +165,7 @@
 		4CC34AD91B6185F4006010E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Tomas Koci";
 				TargetAttributes = {
@@ -212,6 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC34B071B619AC8006010E5 /* SearchByPhraseDelegate.swift in Sources */,
+				4CC34B091B619ADF006010E5 /* LattitudeDelegate.swift in Sources */,
+				4CC34B0B1B619AF6006010E5 /* LongitudeDelegate.swift in Sources */,
 				4CC34AE91B6185F4006010E5 /* ViewController.swift in Sources */,
 				4CC34AE71B6185F4006010E5 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +422,7 @@
 				4CC34B021B6185F4006010E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CC34B031B6185F4006010E5 /* Build configuration list for PBXNativeTarget "Flicker FinderTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +431,7 @@
 				4CC34B051B6185F4006010E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
